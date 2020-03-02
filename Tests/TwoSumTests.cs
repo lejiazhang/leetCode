@@ -16,7 +16,7 @@ namespace Tests
         public void should_pass_violence_cracking(int[] nums, int target, int [] expected)
         {
             // Act
-            var actual = TwoSum.twoSum(nums, target);
+            var actual = Solution.TwoSum(nums, target);
 
             // Assert
             Assert.AreEqual(actual, expected);
@@ -27,7 +27,7 @@ namespace Tests
         public void should_pass_single_loop_with_dictionary(int[] nums, int target, int[] expected)
         {
             // Act
-            var result = TwoSum.TwoSumDic(nums, target);
+            var result = Solution.TwoSumDic(nums, target);
 
             // Assert
             Assert.AreEqual(result, expected);
